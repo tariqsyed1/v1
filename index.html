@@ -42,7 +42,15 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h1 id="smaller-brand-heading" style="height: 55px;margin: -16px;font-size: 300%;">Hi, My name is</h1>
-                        <h4 class="brand-heading" style="font-size: 750%;">tariq</h4>
+                        <script>
+                            var typed = new Typed('#typed', {
+                                stringsElement: '#typed-strings'
+                            });
+                        </script>
+                        <div id="typed-strings">
+                            <h4 class="brand-heading" style="font-size: 750%;">tariq</h4>
+                        </div>
+                        <span id="typed"></span>
                         <p class="text-center intro-text" style="font-size: 20px;">I'm a <span style="font-family: HelveticaNeue;">third year computer science</span><br>student at <span style="font-family: HelveticaNeue;">York University</span>&nbsp;in<br><span style="font-family: HelveticaNeue;">Toronto, Canada</span><br></p>
                         <div><button class="btn btn-primary text-center border rounded-0 border-white js-scroll-trigger" type="button" style="background-color: rgba(255,255,255,0);font-family: HelveticaNeue;color: rgb(255,255,255);width: 117px;height: 44px;margin: 0px 60px 0px 0px;"><a href="#contact" style="color: rgb(255,255,255);">CONTACT</a></button>
                             <button
@@ -152,8 +160,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="assets/js/grayscale.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.3/particles.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="./assets/js/typed.js-master/src/typed.js"></script>
     <script type = "module" src="assets/js/type.js"></script>
+
 </body>
 
 </html>

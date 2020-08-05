@@ -1,5 +1,5 @@
 # Personal Website
-This is a repo to hold my personal website for hosting via (https://www.pages.github.com)[GitHub Pages]
+This is a repo to hold my personal website for hosting via [GitHub Pages](https://www.pages.github.com)
 
 Primarily written using Bootstrap, HTML, CSS, and JavaScript.
 

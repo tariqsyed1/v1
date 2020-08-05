@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="assets/css/projects.css">
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/smoothscrolling.css">
-    <script type="module" src="./assets/js/typed.js-master/src/typed.js"></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
 </head>
 
 <body id="page-top">
@@ -44,9 +45,12 @@
                     <div class="col-lg-8 mx-auto">
                         <h1 id="smaller-brand-heading" style="height: 55px;margin: -16px;font-size: 300%;">Hi, My name is</h1>
                         <script>
-                            var typed = new Typed('#typed', {
-                                stringsElement: '#typed-strings'
-                            });
+                            var options = {
+  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+  typeSpeed: 40
+};
+
+var typed = new Typed('#typed-strings', options);
                         </script>
                         <div id="typed-strings">
                             <h4 class="brand-heading" style="font-size: 750%;">tariq</h4>

@@ -1,0 +1,201 @@
+.container-lang, .container-tech {
+  width: 100%;
+  margin: 0px;
+}
+
+#technologies li {
+  position: relative;
+  list-style: none;
+  margin: 50px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#languages li {
+  position: relative;
+  list-style: none;
+  margin: 50px 0;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+#languages li:before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-color: rgba(66,220,163, .5);
+  border-radius: 1000px;
+}
+
+#technologies li:before {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-color: rgba(54, 126, 233, .5);
+  border-radius: 1000px;
+}
+
+#languages li:after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 15px;
+  background-color: rgba(66,220,163, 1);
+  border-radius: 1000px;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+#technologies li:after {
+  content: "";
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  width: 0;
+  height: 15px;
+  background-color: rgba(54, 126, 223, 1);
+  border-radius: 1000px;
+  animation-duration: .7s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+li.html-css:after {
+  animation-name: html;
+}
+
+@keyframes html {
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes java {
+  to {
+    width: 92%;
+  }
+}
+
+@keyframes python {
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes c-language {
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes jses6 {
+  to {
+    width: 93%;
+  }
+}
+
+@keyframes nodejs {
+  to {
+    width: 85%;
+  }
+}
+
+@keyframes sql {
+  to {
+    width: 85%;
+  }
+}
+
+@keyframes assembly {
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes vscode {
+  to {
+    width: 93%;
+  }
+}
+
+@keyframes bash {
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes unix {
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes git {
+  to {
+    width: 82%;
+  }
+}
+
+@keyframes chrome {
+  to {
+    width: 90%;
+  }
+}
+
+li.chromedev:after {
+  animation-name: chrome;
+}
+
+li.git:after {
+  animation-name: git;
+}
+
+li.unix:after {
+  animation-name: unix;
+}
+
+li.bash:after {
+  animation-name: bash;
+}
+
+li.vscode:after {
+  animation-name: vscode;
+}
+
+li.java:after {
+  animation-name: java;
+}
+
+li.python:after {
+  animation-name: python;
+}
+
+li.c-language:after {
+  animation-name: c-language;
+}
+
+li.nodejs:after {
+  animation-name: nodejs;
+}
+
+li.sql:after {
+  animation-name: sql;
+}
+
+li.assembly:after {
+  animation-name: assembly;
+}
+
+li.jses6:after {
+  animation-name: jses6;
+}
+

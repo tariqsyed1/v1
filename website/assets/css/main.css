@@ -1,0 +1,36 @@
+* {
+  font-family: "HelveticaNeue-Thin", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+}
+
+#smaller-brand-heading {
+  font-family: "HelveticaNeue-Thin";
+  font-weight: 100;
+  text-transform: none;
+}
+
+#custom-homepage-button {
+}
+
+.btn.btn-primary {
+}
+
+.masthead {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+bt {
+}
+
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+

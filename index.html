@@ -44,18 +44,18 @@
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h1 id="smaller-brand-heading" style="height: 55px;margin: -16px;font-size: 300%;">Hi, My name is</h1>
-                        <script>
-                            var options = {
-  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-  typeSpeed: 40
-};
-
-var typed = new Typed('#typed-strings', options);
-                        </script>
                         <div id="typed-strings">
-                            <h4 class="brand-heading" style="font-size: 750%;">tariq</h4>
+                            <h4 class="brand-heading" style="font-size:750%;"></h4>
+                            <p>tariq</p>
                         </div>
                         <span id="typed"></span>
+                        <script>
+                            $('document').ready(function(){
+                                var typed = new Typed('#typed', {
+                                    stringsElement: '#typed-strings'
+                                });
+                            });
+                        </script>
                         <p class="text-center intro-text" style="font-size: 20px;">I'm a <span style="font-family: HelveticaNeue;">third year computer science</span><br>student at <span style="font-family: HelveticaNeue;">York University</span>&nbsp;in<br><span style="font-family: HelveticaNeue;">Toronto, Canada</span><br></p>
                         <div><button class="btn btn-primary text-center border rounded-0 border-white js-scroll-trigger" type="button" style="background-color: rgba(255,255,255,0);font-family: HelveticaNeue;color: rgb(255,255,255);width: 117px;height: 44px;margin: 0px 60px 0px 0px;"><a href="#contact" style="color: rgb(255,255,255);">CONTACT</a></button>
                             <button

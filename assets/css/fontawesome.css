@@ -8,10 +8,14 @@
 }
 
 #contact .fa:hover {
-  opacity: 0.5;
+  opacity: 0.7;
 }
 
 #landingpagebuttons .fa:hover {
-  opacity: 0.5;
+  opacity: 0.7;
+}
+
+#landingpagearrow .fa:hover {
+
 }
 

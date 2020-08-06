@@ -51,14 +51,12 @@
                         
                         
                         <script>
-                            var typed = new Typed('#effect', {
-                                strings: [
-                                    'TARIQ'
-                                ],
-                                typeSpeed: 60,
-                                fadeOut: true,
-                                loop: true
-                            });
+                            var options = {
+  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+  typeSpeed: 40
+};
+
+var typed = new Typed('#effect', options);
                         </script>
                         <p class="text-center intro-text" style="font-size: 20px;">I'm a <span style="font-family: HelveticaNeue;">third year computer science</span><br>student at <span style="font-family: HelveticaNeue;">York University</span>&nbsp;in<br><span style="font-family: HelveticaNeue;">Toronto, Canada</span><br></p>
                         <div><button class="btn btn-primary text-center border rounded-0 border-white js-scroll-trigger" type="button" style="background-color: rgba(255,255,255,0);font-family: HelveticaNeue;color: rgb(255,255,255);width: 117px;height: 44px;margin: 0px 60px 0px 0px;"><a href="#contact" style="color: rgb(255,255,255);">CONTACT</a></button>

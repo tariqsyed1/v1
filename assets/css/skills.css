@@ -106,7 +106,7 @@ li.html-css:after {
 
 @keyframes jses6 {
   to {
-    width: 93%;
+    width: 95%;
   }
 }
 
@@ -118,7 +118,7 @@ li.html-css:after {
 
 @keyframes sql {
   to {
-    width: 85%;
+    width: 80%;
   }
 }
 
@@ -136,7 +136,7 @@ li.html-css:after {
 
 @keyframes bash {
   to {
-    width: 80%;
+    width: 83%;
   }
 }
 
@@ -148,18 +148,46 @@ li.html-css:after {
 
 @keyframes git {
   to {
-    width: 82%;
+    width: 80%;
   }
 }
 
 @keyframes chrome {
   to {
-    width: 90%;
+    width: 85%;
+  }
+}
+
+@keyframes bootstr {
+  to {
+    width: 85%;
+  }
+}
+
+
+@keyframes react {
+  to {
+    width: 85%;
+  }
+}
+
+@keyframes jqu {
+  to {
+    width: 85%;
   }
 }
 
 li.chromedev:after {
   animation-name: chrome;
+}
+li.bootstr:after {
+  animation-name: bootstr;
+}
+li.react:after {
+  animation-name: react;
+}
+li.jqu:after {
+  animation-name: jqu;
 }
 
 li.git:after {

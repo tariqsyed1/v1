@@ -1,7 +1,7 @@
 import Typed from './typedjs-master/src/typed.js';
 
 var options = {
-  strings: ['THIS IS A TEST MESSAGE', 'TARIQ'],
+  strings: ['TARUIQ', 'TARIQ'],
   smartBackspace: true,
   typeSpeed: 100,
   backSpeed: 125,

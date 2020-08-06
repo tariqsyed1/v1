@@ -6,6 +6,7 @@ var options = {
   startDelay: 500,
   backSpeed: 700,
   smartBackspace: true,
+  showCursor: false,
 
 };
 

@@ -2,9 +2,9 @@ import Typed from './typedjs-master/src/typed.js';
 
 var options = {
   strings: ['TARIW', 'TARIQ'],
-  typeSpeed: 100,
+  typeSpeed: 700,
   startDelay: 500,
-  backSpeed: 100,
+  backSpeed: 700,
   smartBackspace: true,
 
 };

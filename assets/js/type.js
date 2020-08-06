@@ -4,8 +4,7 @@ var options = {
   strings: ['TARUQ', 'TARIQ'],
   smartBackspace: true,
   typeSpeed: 100,
-  backSpeed: 200,
-  backDelay: 50,
+  backSpeed: 125,
   showCursor: false,
 
 };

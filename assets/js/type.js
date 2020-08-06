@@ -3,7 +3,7 @@ import Typed from './typedjs-master/src/typed.js';
 var options = {
   strings: ['TARUQ', 'TARIQ'],
   smartBackspace: true,
-  typeSpeed: 200,
+  typeSpeed: 100,
   backSpeed: 200,
   backDelay: 200,
   showCursor: false,

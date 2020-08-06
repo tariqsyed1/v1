@@ -9,6 +9,4 @@ var options = {
 
 };
 
-console.log(options.typeSpeed);
-
 var typed = new Typed('#effect', options);

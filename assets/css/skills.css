@@ -19,6 +19,14 @@
   text-transform: uppercase;
 }
 
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
 #languages li:before {
   content: "";
   position: absolute;

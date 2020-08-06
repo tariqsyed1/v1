@@ -1,7 +1,7 @@
 import Typed from './typedjs-master/src/typed.js';
 
 var options = {
-  strings: ['TARUW', 'TARIQ'],
+  strings: ['taruq', 'TARIQ'],
   typeSpeed: 200,
   startDelay: 200,
   backSpeed: 200,

@@ -5,7 +5,7 @@ var options = {
   smartBackspace: true,
   typeSpeed: 100,
   backSpeed: 200,
-  backDelay: 200,
+  backDelay: 50,
   showCursor: false,
 
 };

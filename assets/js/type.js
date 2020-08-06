@@ -4,7 +4,8 @@ var options = {
   strings: ['TARIW', 'TARIQ'],
   typeSpeed: 700,
   startDelay: 500,
-  backSpeed: 700,
+  backSpeed: 300,
+  backDelay: 400,
   smartBackspace: true,
   showCursor: false,
 

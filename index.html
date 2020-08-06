@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="assets/css/projects.css">
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/smoothscrolling.css">
-    <script type="module" src="/assets/js/type.js"></script>>
+    <script type="module" src="/assets/js/typedjs-master/src/typed.js"></script>
 
 
 </head>
@@ -48,6 +48,18 @@
                         <div>
                             <h4 id="effect" class="brand-heading" style="font-size:750%;"></h4>
                         </div>
+                        
+                        
+                        <script>
+                            var typed = new Typed('#effect', {
+                                strings: [
+                                    'TARIQ'
+                                ],
+                                typeSpeed: 60,
+                                fadeOut: true,
+                                loop: true
+                            });
+                        </script>
                         <p class="text-center intro-text" style="font-size: 20px;">I'm a <span style="font-family: HelveticaNeue;">third year computer science</span><br>student at <span style="font-family: HelveticaNeue;">York University</span>&nbsp;in<br><span style="font-family: HelveticaNeue;">Toronto, Canada</span><br></p>
                         <div><button class="btn btn-primary text-center border rounded-0 border-white js-scroll-trigger" type="button" style="background-color: rgba(255,255,255,0);font-family: HelveticaNeue;color: rgb(255,255,255);width: 117px;height: 44px;margin: 0px 60px 0px 0px;"><a href="#contact" style="color: rgb(255,255,255);">CONTACT</a></button>
                             <button

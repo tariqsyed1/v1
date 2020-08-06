@@ -1,7 +1,7 @@
 import Typed from './typedjs-master/src/typed.js';
 
 var options = {
-  strings: ['<i>TARIW</i>', '&amp; TARIQ'],
+  strings: ['TARIW', 'TARIQ'],
   typeSpeed: 30
 };
 

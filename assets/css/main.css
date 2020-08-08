@@ -3,6 +3,10 @@
   font-weight: 100;
 }
 
+h3 {
+  font-family: "HelveticaNeue-Thin", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 #smaller-brand-heading {
   font-family: "HelveticaNeue-Thin";
   font-weight: 100;

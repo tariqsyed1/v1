@@ -1,5 +1,7 @@
 import Typed from './typedjs-master/src/typed.js';
 
+
+/* Typed.js code */
 var options = {
   strings: ['TARUQ', 'TARIQ'],
   smartBackspace: true,

@@ -1,16 +1,16 @@
 * {
   font-family: "HelveticaNeue-Thin", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 100;
+  font-weight: 100; /* Sets helvetica neue to the default system font for website */
 }
 
 h3 {
-  font-family: "HelveticaNeue-Thin", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "HelveticaNeue-Thin", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; /* Added cause windows is weird? */
 }
 
 #smaller-brand-heading {
   font-family: "HelveticaNeue-Thin";
   font-weight: 100;
-  text-transform: none;
+  text-transform: none; /* Text for the 'hi my name is' part */
 }
 
 .masthead {
@@ -30,7 +30,7 @@ h3 {
 }
 
 body {
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; /* Windows error probably lies within these 2 selectors*/
 }
 
 h1 {

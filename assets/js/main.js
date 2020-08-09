@@ -1,9 +1,4 @@
-/**
-* Template Name: MyPortfolio - v2.1.0
-* Template URL: https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+//Portfolio jQuery Code
 (function($) {
   "use strict";
 
@@ -37,7 +32,7 @@
     siteIstotope();
   });
 
-
+  /* Initializes AOS for the website */
   $(window).on('load', function() {
     AOS.init({
       easing: 'ease',

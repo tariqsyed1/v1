@@ -1,3 +1,7 @@
+/* CSS Code for the skills section, in about me.*/
+
+/* This is for the skills container itself */
+
 .container-lang, .container-tech {
   width: 100%;
   margin: 0px;
@@ -19,12 +23,7 @@
   text-transform: uppercase;
 }
 
-#particles canvas {
-  position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-}
+/* Before the user hovers */
 
 #languages li:before {
   content: "";
@@ -47,6 +46,8 @@
   background-color: rgba(54, 126, 233, .5);
   border-radius: 1000px;
 }
+
+/* Fill after the user hovers */
 
 #languages li:after {
   content: "";
@@ -75,6 +76,8 @@
   animation-timing-function: ease;
   animation-fill-mode: forwards;
 }
+
+/* The following code specifies the % to fill each skill bar with. */
 
 li.html-css:after {
   animation-name: html;

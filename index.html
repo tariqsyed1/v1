@@ -1,17 +1,319 @@
-<!doctype html>
+<!DOCTYPE html>
+<html>
 
-<html lang="en">
 <head>
-  <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Tariq Syed</title>
+    <meta name="description" content="Third year Computer Science student at York University in Toronto, Canada.">
+    <!--Favicon Image-->
+    <link rel="icon" type="image/png" sizes="298x298" href="assets/img/favicon_png_compressed.png">
+    <!-- CSS Styles for website-->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/projects.css">
+    <link rel="stylesheet" href="assets/css/skills.css">
+    <link rel="stylesheet" href="assets/css/smoothscrolling.css">
 
-  <title>Tariq Syed</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
+    <!-- Third Party CSS API's -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  
+    <!-- CSS File for Portfolio-->
+    <link href="assets/css/style.css" rel="stylesheet">
+  
 
 </head>
 
-<body>
-  <p>Coming soon™</p>
+<body id="page-top">
+  <!--Interactive Navbar-->
+    <nav class="navbar navbar-light navbar-expand-md navbar navbar-expand-lg fixed-top" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" href="#">Tariq Syed</a><button data-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                value="Menu"><i class="fa fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="https://www.github.com/tariqsyed1"><i class="fa fa-github fa-lg"></i></a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#projects">projects</a></li>
+                    <li class="nav-item nav-link js-scroll-trigger" role="presentation"><a class="nav-link js-scroll-trigger" href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Landing Page-->
+    <header class="masthead" style="background-image:url('assets/img/intro-bg.jpg');">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h1 id="smaller-brand-heading" style="height: 55px;margin: -16px;font-size: 300%;font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;">Hi, My name is</h1>
+                        <div>
+                            <h4 id="effect" class="brand-heading" style="font-size:750%;"></h4> <!--Needs to be inside own div for typing.js-->
+                        </div>
+                        <p class="text-center intro-text" style="font-size: 20px;">I'm a <span style="font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;font-weight:bold;">third year computer science</span><br>student at <span style="font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;font-weight:bold;">York University</span>&nbsp;in<br><span style="font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;font-weight:bold;">Toronto, Canada</span><br></p>
+                        <div id="landingpagebuttons">
+                          <!-- Quick buttons -->
+                            <a class="btn btn-outline-light js-scroll-trigger" href="#contact" style="font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;margin:0px 85px 0px 0px;">CONTACT</a>
+                            <a class="btn btn-outline-light" href="https://drive.google.com/file/d/1142jCBldy1NM-4zp92-fT2YkTEvsMdmR/view?usp=sharing" style="font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;">RESUME</a>
+                            
+                        </div><a class="btn btn-link btn-circle js-scroll-trigger" role="button" id="about-button" href="#about"><i class="fa fa-angle-double-down animated"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- About section -->
+    <section id="about" class="content-section text-center">
+        <div class="container">
+            <div class="row"> <!-- First row, for main about section including summary and picture-->
+                <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    <h2 style="font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;">About</h2>
+                    <p><span style="font-family: HelveticaNeue;"></span>Hello World! I'm an aspiring software engineer located
+                        in <a href="https://en.wikipedia.org/wiki/Toronto">Toronto, Canada</a>. At the moment I'm entering my third year of computer science at <a href="#">York University</a>, and I expect to graduate in 2023.</p>
+                    <p>Currently, I'm interested in full stack development, databases, data structures, software engineering, and cloud architecture &amp; infrastructure. Specifically, I'm working on creating apps using the MERN stack, learning data structures
+                        and databases in school, and creating this custom website. Head over to the <a class="js-scroll-trigger" href="#projects">projects</a>&nbsp;section to see my work.</p>
+                    <p>In the future I would like to explore topics including <a href="https://en.wikipedia.org/wiki/Robotics">robotics</a>, <a href="https://en.wikipedia.org/wiki/Network-attached_storage">file servers / NAS</a>, <a href="https://aws.amazon.com/">AWS</a>,
+                        <a href="https://en.wikipedia.org/wiki/Computer_security">computer security</a>, more <a href="https://www.w3schools.com/whatis/whatis_fullstack.asp">full stack</a>&nbsp;technologies, and&nbsp;<a href="https://en.wikipedia.org/wiki/Machine_learning">machine learning</a>.</p>
+                    <p>Outside of computers, things I enjoy include cars, gaming, spending time with friends and family, and meeting new people.<br></p>
+                    <p>I am currently looking for a Winter 2021 internship! To contact me, you can message me on <a href="https://www.linkedin.com/in/tariq-syed-5b9903193/">LinkedIn</a>&nbsp;or head over to the <a class="js-scroll-trigger" href="#contact">contact me</a> section.</p>
+                </div>
+                <div class="col"><img class="img-fluid" src="assets/img/tariq-lasso.png" alt="A picture of me" style="padding: 20% 0px 0px 0px;" data-aos="fade-up" data-aos-delay="100">
+                    <p style="padding: 5%;" data-aos="fade-up" data-aos-delay="100">I'm Tariq 👋</p>
+                </div>
+            </div> <!-- 2nd Row, for the skills section-->
+                    <div class="row" id="technologes-languages" data-aos="fade-up" data-aos-delay="100">
+                        <div class="col" id="languages">
+                            <div class="container-lang" style="text-align: left;">
+                                <p style="text-align: center;font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;font-weight:bold">LANGUAGES</p>
+                                <ul>
+                                    <li class="python">Python</li>
+                                    <li class="java">Java</li>
+                                    <li class="c-language">C and c++</li>
+                                    <li class="html-css">HTML5 + CSS3</li>
+                                    <li class="jses6">JavaScript(ES6)</li>
+                                    <li class="sql">SQL</li>
+                                    <li class="nodejs">Node.js</li>
+                                    <li class="assembly">Assembly (RISC-V)</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col" id="technologies">
+                            <div class="container-tech" style="text-align: left;">
+                                <p style="text-align: center;font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;font-weight:bold;">TECHNOLOGIES</p>
+                                <ul>
+                                    <li class="vscode">Visual Studio Code</li>
+                                    <li class="bash">Bash / Terminal</li>
+                                    <li class="unix">Unix / Linux</li>
+                                    <li class="git">Git &amp; GitHub</li>
+                                    <li class="chromedev">Chrome Dev Tools</li>
+                                    <li class="bootstr">BOOTSTRAP</li>
+                                    <li class="react">REACT</li>
+                                    <li class="jqu">jQuery</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </section>
+    <!-- Projects portfolio-->
+    <section id="projects" class="content-section text-center">
+    <section class="section site-portfolio">
+        <div class="container">
+          <div class="row mb-5 align-items-center">
+            <div class="col-md-12 col-lg-6 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+              <h2 style="font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;text-align:center;">Projects</h2>
+              <p style="text-align:center;">Here is a collection of some of my work. For more information or source code, click on an image or visit my <a href="https://www.github.com/tariqsyed1">GitHub</a>. 
+              Unfortunately due to academic integrity, source code for coursework is unavailable.</p>
+            </div>
+            <!--- Selector -->
+            <div class="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
+              <div id="filters" class="filters">
+                <a href="#" data-filter="*" class="active">All</a>
+                <a href="#" data-filter=".apps">Apps</a>
+                <a href="#" data-filter=".web">Web Dev</a>
+                <a href="#" data-filter=".other">Self Learn</a>
+                <a href="#" data-filter=".course">Coursework</a>
+
+              </div>
+            </div>
+          </div>
+          <!-- Example of portfolio
+            <div class="item other col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="https://www.github.com/tariqsyed1" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Build Indoo</h3>
+                  <span>Other</span>
+                </div>
+                <img class="img-fluid" src="assets/img/img_2.jpg">
+              </a>
+            </div>
+          -->
+          <div id="portfolio-grid" class="row no-gutter" data-aos="fade-up" data-aos-delay="200">
+            <!--- Apps Section -->
+            <!--- Web Design Section -->
+            <div class="item web col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="https://www.github.com/tariqsyed1/tariqsyed1.github.io" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Personal Portfolio</h3>
+                  <span>Created custom website</span>
+                </div>
+                <img class="img-fluid" alt="Screenshot of personal website" src="assets/img/img_1.png">
+              </a>
+            </div>
+            
+            <!--- Other Section -->
+            <div class="item other col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="https://www.linkedin.com/learning/node-js-essential-training-3" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>Node.js Essential Training</h3>
+                  <span>Self-learned Node.js fundamentals</span>
+                </div>
+                <img class="img-fluid" alt="Node.js Linkedin Learning Course" src="assets/img/ll-nodejs.jpg">
+              </a>
+            </div>
+            <div class="item other col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="https://www.linkedin.com/learning/learning-ecmascript-6" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>ECMAScript 6 </h3>
+                  <span>Self-learned ECMAScript6 and Babel fundamentals</span>
+                </div>
+                <img class="img-fluid" alt="ES6 Linkedin Learning Course" src="assets/img/rsz_ll.png">
+              </a>
+            </div>
+            <!--- Coursework Section -->
+            <div class="item course col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>EECS 3421: Databases</h3>
+                  <span>Learned concepts, approaches, and techniques in a DBMS. Used PostgreSQL.</span>
+                </div>
+                <img class="img-fluid" alt="EECS 3421" src="assets/img/rsz_berg-night.jpg">
+              </a>
+            </div>
+            <div class="item course col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>EECS 2011: Data Structures</h3>
+                  <span>Learned the fundamental data structures used in the design of algorithms, and how to effeciently apply them. Analyzed and reasoned about data structures using asymptotic run times, contracts, assertions, and invariants.</span>
+                </div>
+                <img class="img-fluid" alt="EECS 2011" src="assets/img/rsz_berg-night.jpg">
+              </a>
+            </div>
+            <div class="item course col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>EECS 2031: Software Tools</h3>
+                  <span>Learned C & Bash programming in a Unix environment.</span>
+                </div>
+                <img class="img-fluid" alt="EECS 2031" src="assets/img/rsz_berg-night.jpg">
+              </a>
+            </div>
+            <div class="item course col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>EECS 2021: Computer Organization</h3>
+                  <span>Learned machine instructions, CPU structure, datapath and control, pipelining, memory hierarcy, and more. Used RISC-V and Assembly.</span>
+                </div>
+                <img class="img-fluid" alt="EECS 2021" src="assets/img/rsz_berg-night.jpg">
+              </a>
+            </div>
+            <div class="item course col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>EECS 2030: Object Oriented Programming</h3>
+                  <span>Learned fundamental OOP concepts, how to implement API's, and various forms of testing. Used Java. </span>
+                </div>
+                <img class="img-fluid" alt="EECS2030" src="assets/img/rsz_berg-night.jpg">
+              </a>
+            </div>
+            <div class="item course col-sm-6 col-md-4 col-lg-4 mb-4">
+              <a href="" class="item-wrap fancybox">
+                <div class="work-info">
+                  <h3>EECS 1012: Web Programming</h3>
+                  <span>Learned major web developent concepts along with HTML, CSS, and vanilla JavaScript. Briefly covered server-side development with JQuery.</span>
+                </div>
+                <img class="img-fluid" alt="EECS 1012" src="assets/img/rsz_berg-night.jpg">
+              </a>
+            </div>
+            
+          </div>
+        </div>
+      </section><!-- End  Works Section -->
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-delay="100">
+                    <h2 style="font-family: HelveticaNeue-Thin, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, sans-serif;text-align:center;">CONTACT</h2>
+                    <p>Have a question or want to work together?<br>Feel free to contact me!</p>
+                    <div id="socialmediabuttons" data-aos="fade-up" data-aos-delay="100">
+                      <!-- List for social media buttons -->
+                        <ul class="list-inline banner-social-buttons">
+                            <li class="list-inline-item">
+                                <a href="https://www.linkedin.com/in/tariq-syed-5b9903193/">
+                                    <i class="fa fa-linkedin-square fa-fw">
+
+                                    </i>
+                                </a>
+                                
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.github.com/tariqsyed1">
+                                    <i class="fa fa-github fa-fw">
+
+                                    </i>
+                                </a>
+                                
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="mailto:hello@tariqsyed.me">
+                                    <i class="fa fa-envelope-o fa-fw">
+
+                                    </i>
+                                </a>
+                                
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.snapchat.com/add/tariqsyed1">
+                                    <i class="fa fa-snapchat-ghost fa-fw">
+
+                                    </i>
+                                </a>
+                                
+                            </li>
+                        </ul>
+                    </div>
+                    <p>You can download my resume&nbsp;<a href="/assets/resume/resume.html">here</a>.</p>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-delay="100"><img src="assets/img/6BEEF42C-DABA-4294-B76D-17E71EEF5753-1-scaled.jpg" alt="An image of the CN tower." style="width: 100%;"></div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright ©&nbsp;Tariq Syed</p>
+        </div>
+    </footer>
+    <!-- Scripts at the end of the page so the page loads faster-->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/grayscale.js"></script>
+    <script type="module" src="/assets/js/type.js"></script> <!-- typing.js -->
+    <script src="assets/vendor/aos/aos.js"></script> <!-- AOS -->
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> <!-- Portfolio API -->
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script> <!-- Carousel API-->
+  
+    <!--  Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+
 </body>
+
 </html>
